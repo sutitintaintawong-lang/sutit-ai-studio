@@ -1,5 +1,5 @@
 import Sidebar from "./components/Sidebar";
-
+import AIImage from "./pages/AIImage";
 
 function App(){
 
@@ -16,7 +16,11 @@ return(
 <h1>
 Dashboard
 </h1>
+<div className="card">
 
+<AIImage/>
+
+</div>
 
 <p>
 Welcome to Sutit AI Studio
