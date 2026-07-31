@@ -1,40 +1,73 @@
+import Sidebar from "./components/Sidebar";
+
+
 function App(){
 
-  return (
-    <div className="app">
+return(
 
-      <h1>
-        🚀 Sutit AI Studio
-      </h1>
-
-      <p>
-        Create Image, Video, Voice and AI Avatar
-      </p>
+<div className="layout">
 
 
-      <div className="menu">
-
-        <button>
-          🖼 AI Image
-        </button>
-
-        <button>
-          🎬 AI Video
-        </button>
-
-        <button>
-          🎤 AI Voice
-        </button>
-
-        <button>
-          🤖 AI Avatar
-        </button>
-
-      </div>
+<Sidebar/>
 
 
-    </div>
-  );
+<main className="content">
+
+<h1>
+Dashboard
+</h1>
+
+
+<p>
+Welcome to Sutit AI Studio
+</p>
+
+
+<div className="cards">
+
+
+<div className="card">
+🖼
+<h3>
+AI Image
+</h3>
+<p>
+Create images with AI
+</p>
+</div>
+
+
+<div className="card">
+🎬
+<h3>
+AI Video
+</h3>
+<p>
+Animate your images
+</p>
+</div>
+
+
+<div className="card">
+🤖
+<h3>
+AI Avatar
+</h3>
+<p>
+Talking digital human
+</p>
+</div>
+
+
+</div>
+
+
+</main>
+
+
+</div>
+
+)
 
 }
 
