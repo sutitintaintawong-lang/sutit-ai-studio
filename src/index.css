@@ -113,3 +113,27 @@ border-radius:20px;
 width:220px;
 
 }
+textarea{
+
+width:80%;
+
+height:120px;
+
+padding:15px;
+
+font-size:18px;
+
+border-radius:10px;
+
+margin:20px;
+
+}
+
+
+img{
+
+border-radius:20px;
+
+margin-top:20px;
+
+  }
